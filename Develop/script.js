@@ -43,7 +43,7 @@ function writePassword() {
     emptyArr = emptyArr.concat(charNumSet);
   }
   else{
-    return;
+    generatePassword();
   }
 
 function generatePassword() {
